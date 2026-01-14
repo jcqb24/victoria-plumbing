@@ -1,0 +1,41 @@
+.vp-listing-page {
+  display: flex;
+  gap: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.vp-listing-page__sidebar {
+  flex-shrink: 0;
+}
+
+.vp-listing-page__main {
+  flex: 1;
+  min-width: 0;
+}
+
+.vp-listing-page__header {
+  margin-bottom: 24px;
+}
+
+.vp-listing-page__grid {
+  margin-bottom: 24px;
+}
+
+.vp-listing-page__loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  font-size: 18px;
+  color: #666;
+}
+
+.vp-listing-page__error {
+  padding: 24px;
+  background-color: #fee;
+  border: 1px solid #fcc;
+  border-radius: 8px;
+  color: #c33;
+}

@@ -1,0 +1,35 @@
+.vp-rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+}
+
+.vp-rating__stars {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: #ffc107;
+}
+
+.vp-rating__count {
+  color: #666;
+  margin-left: 4px;
+  font-size: 13px;
+}
+
+.vp-rating--sm {
+  font-size: 12px;
+}
+
+.vp-rating--sm .vp-rating__count {
+  font-size: 11px;
+}
+
+.vp-rating--lg {
+  font-size: 16px;
+}
+
+.vp-rating--lg .vp-rating__count {
+  font-size: 15px;
+}

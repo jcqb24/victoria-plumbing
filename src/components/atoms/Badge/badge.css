@@ -1,0 +1,38 @@
+.vp-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.vp-badge--sale {
+  background-color: #e31e24;
+  color: white;
+}
+
+.vp-badge--bestseller {
+  background-color: #00a3da;
+  color: white;
+}
+
+.vp-badge--spacesaver {
+  background-color: #6c757d;
+  color: white;
+}
+
+.vp-badge--instock {
+  background-color: #28a745;
+  color: white;
+  font-size: 11px;
+  padding: 2px 6px;
+}
+
+.vp-badge--default {
+  background-color: var(--color-muted, #f8f9fa);
+  color: var(--color-text, #333);
+}

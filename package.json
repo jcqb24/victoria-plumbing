@@ -1,0 +1,19 @@
+{
+  "name": "@vic/ui",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "src"],
+  "scripts": {
+    "dev:storybook": "storybook dev -p 6006",
+    "build:storybook": "storybook build",
+    "build:lib": "tsc -p tsconfig.build.json && vite build --config vite.lib.config.ts",
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "react": "^18 || ^19",
+    "react-dom": "^18 || ^19"
+  }
+}
