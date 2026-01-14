@@ -1,0 +1,1 @@
+.pg-grid{display:grid;gap:16px}.pg-cols-3{grid-template-columns:repeat(3,1fr)}.pg-item{display:flex;justify-content:center}
