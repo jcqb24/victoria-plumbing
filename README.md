@@ -1,6 +1,6 @@
 # VP Technical Task
 
-For this task I've created a storybook component library for Victoria Plumbing. 
+For this task I've created a storybook component library for Victoria Plumbing
 
 Scripts:
 
