@@ -109,13 +109,15 @@ export const transformProduct = (product: Product): any => {
     badges.push({ type: 'instock', label: 'In Stock' });
   }
 
+  const currencySymbol = product.price.currencySymbol || '£';
+  
   return {
     id: product.id,
     imageSrc: product.image?.url,
     title: product.productName,
-    price: `${product.price.currencySymbol}${product.price.priceIncTax.toFixed(2)}`,
+    price: `${currencySymbol}${product.price.priceIncTax.toFixed(2)}`,
     originalPrice: product.price.wasPriceIncTax
-      ? `${product.price.currencySymbol}${product.price.wasPriceIncTax.toFixed(2)}`
+      ? `${currencySymbol}${product.price.wasPriceIncTax.toFixed(2)}`
       : undefined,
     badges,
     rating: product.averageRating || 0,
