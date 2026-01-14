@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../../../tokens/tokens.css";
-import "./apilistingpage.css";
+import "./APIListingPage.css";
 import { VPFilterSidebar } from "../../organisms/FilterSidebar/FilterSidebar";
 import { VPProductGrid } from "../../organisms/ProductGrid/ProductGrid";
 import { VPResultsHeader } from "../../molecules/ResultsHeader/ResultsHeader";
